@@ -4,3 +4,4 @@
 ^appveyor\.yml$
 ^codecov\.yml$
 ^tic\.R$
+^_gh-pages$
