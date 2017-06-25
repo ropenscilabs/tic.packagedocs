@@ -1,6 +1,6 @@
 ## layout the order in which topics are presented in the rd docs
 # 1. get a list of topics with the following:
-#    db <- tools::Rd_db("tic.package")
+#    db <- tools::Rd_db("tic.packagedocs")
 #    topics <- gsub("\\.Rd", "", names(db))
 #    cat(paste(topics, collapse = "\n"))
 # 2. arrange the topic names into sections as desired in the format below:
@@ -17,5 +17,5 @@ sections:
   topics:
     - multiply
     -
-      file: tic.package-package.Rd
-      title: "tic.package-package: tic.package, tic.package-package"
+      file: tic.packagedocs-package.Rd
+      title: "tic.packagedocs-package: tic.packagedocs, tic.packagedocs-package"
