@@ -10,8 +10,8 @@ if (Sys.getenv("id_rsa") != "") {
     add_step(step_setup_ssh())
 
   get_stage("deploy") %>%
-    add_step(step_run_code(remotes::install_local(getwd()))) %>%
+    add_code_step(remotes::install_local(getwd())) %>%
     add_step(step_setup_push_deploy(path = "_gh-pages", branch = "gh-pages")) %>%
-    add_step(step_run_code(packagedocs::build_vignettes())) %>%
+    add_code_step(packagedocs::build_vignettes()) %>%
     add_step(step_do_push_deploy(path = "_gh-pages"))
 }
