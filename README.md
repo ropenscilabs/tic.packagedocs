@@ -1,7 +1,7 @@
 # tic.packagedocs
 
 <!-- badges: start -->
-[![Travis build status](https://img.shields.io/travis/ropenscilabs/tic.packagedocs/master?logo=travis&style=flat-square&label=Linux)](https://travis-ci.com/ropenscilabs/tic.packagedocs)
+[![Travis build status](https://img.shields.io/travis/ropenscilabs/tic.packagedocs/master?logo=travis&style=flat-square&label=Linux)](https://travis-ci.org/ropenscilabs/tic.packagedocs)
 [![AppVeyor build status](https://img.shields.io/appveyor/ci/ropensci/tic-packagedocs?label=Windows&logo=appveyor&style=flat-square)](https://ci.appveyor.com/project/ropensci/tic-packagedocs)
 [![Coverage Status](https://codecov.io/gh/ropenscilabs/tic.packagedocs/branch/master/graph/badge.svg)](https://codecov.io/github/ropenscilabs/tic.packagedocs?branch=master)
 <!-- badges: end -->
