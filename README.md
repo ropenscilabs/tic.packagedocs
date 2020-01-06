@@ -1,8 +1,10 @@
 # tic.packagedocs
 
-[![Travis-CI Build Status](https://travis-ci.org/ropenscilabs/tic.packagedocs.svg?branch=master)](https://travis-ci.org/ropenscilabs/tic.packagedocs) 
-[![Build status](https://ci.appveyor.com/api/projects/status/58poxn7c76dfuw08/branch/master?svg=true)](https://ci.appveyor.com/project/ropensci/tic-packagedocs/branch/master)
+<!-- badges: start -->
+[![Travis build status](https://img.shields.io/travis/ropenscilabs/tic.packagedocs/master?logo=travis&style=flat-square&label=Linux)](https://travis-ci.com/ropenscilabs/tic.packagedocs)
+[![AppVeyor build status](https://img.shields.io/appveyor/ci/ropensci/tic-packagedocs?label=Windows&logo=appveyor&style=flat-square)](https://ci.appveyor.com/project/ropensci/tic-packagedocs)
 [![Coverage Status](https://codecov.io/gh/ropenscilabs/tic.packagedocs/branch/master/graph/badge.svg)](https://codecov.io/github/ropenscilabs/tic.packagedocs?branch=master)
+<!-- badges: end -->
 
 A minimal example package with [packagedocs](http://hafen.github.io/packagedocs) documentation created and uploaded by _tic_.
 The documentation is written to, and served from, the `gh-pages` branch.
