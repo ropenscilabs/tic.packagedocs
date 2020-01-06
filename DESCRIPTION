@@ -1,16 +1,23 @@
 Package: tic.packagedocs
 Title: Example Package for 'tic'
 Version: 0.0-0
-Authors@R: person("Kirill", "Müller", role = c("aut", "cre"), email = "krlmlr+r@mailbox.org")
+Date: 2017-06-17
+Authors@R: 
+    person(given = "Kirill",
+           family = "Müller",
+           role = c("aut", "cre"),
+           email = "krlmlr+r@mailbox.org")
 Description: Building a package with packagedocs documentation.
 License: GPL-3
+URL: https://github.com/krlmlr/tic.packagedocs,
+    http://krlmlr.github.io/tic.packagedocs
+BugReports: https://github.com/krlmlr/tic.packagedocs/issues
+Suggests: 
+    packagedocs,
+    testthat
+VignetteBuilder: 
+    packagedocs
 Encoding: UTF-8
 LazyData: true
-Date: 2017-06-17
-BugReports: https://github.com/krlmlr/tic.packagedocs/issues
-URL: https://github.com/krlmlr/tic.packagedocs, http://krlmlr.github.io/tic.packagedocs
 Roxygen: list(markdown = TRUE)
-Suggests: testthat,
-    packagedocs
-RoxygenNote: 6.0.1
-VignetteBuilder: packagedocs
+RoxygenNote: 7.0.2
